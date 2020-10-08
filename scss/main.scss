@@ -1,4 +1,5 @@
 @import 'config';
+@import 'menu';
 
 *{
     box-sizing: border-box;
@@ -6,7 +7,7 @@
 
 body{
     @include background;
-    background-color: $primary-color;
+    //  background-color: $primary-color;
     color: white;
     height: 100%;
     margin:0;
@@ -27,7 +28,7 @@ h1, h2, h3 {
         margin-bottom: 2rem;
         padding: 0.2rem 1rem;
         
-        background: rgba(lighten($primary-color, 1), 0.5);
+        background: rgba(lighten($primary-color, 1), 0.4);
     }
 }
 
